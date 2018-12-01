@@ -1,0 +1,13 @@
+#main-wrap {
+    margin: 50px auto;
+    width: 600px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+header img {
+    margin-top: 30px;
+    width: 30px;
+    height: 30px;
+}
