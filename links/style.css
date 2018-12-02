@@ -1,13 +1,38 @@
 #main-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 50px auto;
-    width: 600px;
+    width: fit-content;
+    background-color: lightgrey;
+    padding: 10px 30px;
 }
-header {
+#game-header {
     display: flex;
     justify-content: space-between;
+    width: 90%;
 }
-header img {
+#game-header img {
     margin-top: 30px;
     width: 30px;
     height: 30px;
+}
+#game-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 20px;
+    background-color: lightgrey;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
 }
