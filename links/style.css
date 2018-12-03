@@ -30,11 +30,15 @@ input {
 }
 #game-wrap {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: fit-content;
     border-left: 1px solid slategrey;
     border-bottom: 1px solid slategrey;
+}
+.row {
+    display: flex;
 }
 .box {
     display: flex;
