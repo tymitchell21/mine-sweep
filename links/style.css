@@ -36,6 +36,7 @@ input {
     height: fit-content;
     border-left: 1px solid slategrey;
     border-bottom: 1px solid slategrey;
+    -webkit-touch-callout: none;
 }
 .row {
     display: flex;
@@ -44,9 +45,13 @@ input {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 25px;
-    height: 20px;
+    width: 35px;
+    height: 30px;
     background-color: lightgrey;
     border-right: 1px solid slategrey;
     border-top: 1px solid slategrey;
+}
+#game-wrap img {
+    width: 80%;
+    height: 80%;
 }
