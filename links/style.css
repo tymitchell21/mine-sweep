@@ -34,8 +34,8 @@ input {
     justify-content: center;
     align-items: center;
     height: fit-content;
-    border-left: 1px solid slategrey;
     border-bottom: 1px solid slategrey;
+    border-left: 1px solid slategrey;
     -webkit-touch-callout: none;
 }
 .row {
